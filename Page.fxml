@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="pane" prefHeight="1000.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="FX.Graphics.SierpinskiTriangle.Controller">
+   <JFXButton fx:id="restart" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="125.0"
+              style="-fx-border-color: black;" text="RESTART"/>
+   <JFXButton fx:id="color" layoutX="10.0" layoutY="45.0" prefHeight="25.0" prefWidth="125.0"
+              style="-fx-border-color: black;" text="COLOR: ON"/>
+   <JFXTextField fx:id="iter" labelFloat="true" layoutX="10.0" layoutY="110.0" prefHeight="25.0" prefWidth="125.0"
+                 promptText="POPULATION">
+      <font>
+         <Font size="12.0"/>
+      </font>
+   </JFXTextField>
+   <JFXTextField fx:id="rad" labelFloat="true" layoutX="10.0" layoutY="165.0" prefHeight="25.0" prefWidth="125.0"
+                 promptText="SIZE">
+      <font>
+         <Font size="12.0"/>
+      </font>
+   </JFXTextField>
+</AnchorPane>
